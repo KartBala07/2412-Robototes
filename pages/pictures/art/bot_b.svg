@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460" role="img" aria-label="Stylized robot with articulated arm">
+  <rect width="600" height="460" fill="#120d0e"/>
+  <g opacity=".07" stroke="#ee2f38"><path d="M0 40h600M0 120h600M0 200h600M0 280h600M0 360h600M60 0v460M180 0v460M300 0v460M420 0v460M540 0v460" fill="none"/></g>
+  <line x1="60" y1="380" x2="540" y2="380" stroke="#3a2c2e" stroke-width="3"/>
+  <rect x="160" y="320" width="280" height="44" rx="5" fill="#1d1719" stroke="#ee2f38" stroke-width="3"/>
+  <g fill="#0c0809" stroke="#5a4548" stroke-width="3">
+    <circle cx="205" cy="372" r="22"/><circle cx="300" cy="372" r="22"/><circle cx="395" cy="372" r="22"/>
+  </g>
+  <!-- articulated arm -->
+  <g stroke-linecap="round">
+    <line x1="290" y1="320" x2="230" y2="190" stroke="#ee2f38" stroke-width="12"/>
+    <line x1="230" y1="190" x2="360" y2="120" stroke="#ee2f38" stroke-width="10"/>
+    <circle cx="290" cy="320" r="16" fill="#0c0809" stroke="#ee2f38" stroke-width="4"/>
+    <circle cx="230" cy="190" r="13" fill="#0c0809" stroke="#ee2f38" stroke-width="4"/>
+  </g>
+  <!-- claw -->
+  <g fill="none" stroke="#f4f3f3" stroke-width="6" stroke-linecap="round">
+    <path d="M360 120 q28 -6 36 16"/>
+    <path d="M360 120 q30 14 22 38"/>
+  </g>
+  <rect x="404" y="130" width="26" height="26" fill="none" stroke="#ffb03a" stroke-width="4" transform="rotate(12 417 143)"/>
+  <text x="300" y="352" font-family="monospace" font-size="20" font-weight="bold" fill="#f4f3f3" text-anchor="middle" letter-spacing="4">2412</text>
+</svg>

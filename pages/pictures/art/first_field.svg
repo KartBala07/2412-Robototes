@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" role="img" aria-label="Stylized top-down FRC field illustration">
+  <defs>
+    <linearGradient id="ffBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#151011"/>
+      <stop offset="1" stop-color="#0a0607"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="620" fill="url(#ffBg)"/>
+  <!-- field -->
+  <rect x="90" y="120" width="620" height="380" fill="#100b0c" stroke="#5a4548" stroke-width="4"/>
+  <!-- alliance zones -->
+  <rect x="90" y="120" width="90" height="380" fill="#ee2f38" opacity=".22"/>
+  <rect x="620" y="120" width="90" height="380" fill="#3a6fe0" opacity=".22"/>
+  <line x1="400" y1="120" x2="400" y2="500" stroke="#5a4548" stroke-width="3" stroke-dasharray="12 10"/>
+  <circle cx="400" cy="310" r="70" fill="none" stroke="#5a4548" stroke-width="3"/>
+  <!-- game pieces -->
+  <g fill="none" stroke="#ffb03a" stroke-width="5">
+    <circle cx="330" cy="220" r="13"/><circle cx="470" cy="250" r="13"/>
+    <circle cx="350" cy="400" r="13"/><circle cx="450" cy="380" r="13"/>
+    <circle cx="400" cy="310" r="13"/>
+  </g>
+  <!-- red robots -->
+  <g>
+    <rect x="200" y="200" width="54" height="54" fill="#0c0809" stroke="#ee2f38" stroke-width="5"/>
+    <rect x="240" y="360" width="54" height="54" fill="#0c0809" stroke="#ee2f38" stroke-width="5" transform="rotate(18 267 387)"/>
+    <text x="227" y="234" font-family="monospace" font-size="15" fill="#ee2f38" text-anchor="middle" font-weight="bold">2412</text>
+  </g>
+  <!-- blue robots -->
+  <g>
+    <rect x="560" y="220" width="54" height="54" fill="#0c0809" stroke="#3a6fe0" stroke-width="5" transform="rotate(-14 587 247)"/>
+    <rect x="540" y="380" width="54" height="54" fill="#0c0809" stroke="#3a6fe0" stroke-width="5"/>
+  </g>
+  <!-- movement paths -->
+  <g fill="none" stroke="#ee2f38" stroke-width="3" stroke-dasharray="4 8" opacity=".8">
+    <path d="M254 227 Q330 260 388 300"/>
+    <path d="M294 387 Q340 350 386 322"/>
+  </g>
+  <!-- title chip -->
+  <rect x="90" y="52" width="266" height="40" fill="#0c0809" stroke="#ee2f38" stroke-width="2"/>
+  <text x="108" y="78" font-family="monospace" font-size="17" fill="#ee2f38" letter-spacing="3">FIRST ROBOTICS &#183; FRC</text>
+  <text x="400" y="565" font-family="monospace" font-size="18" fill="#a3a0a0" text-anchor="middle" letter-spacing="6">SIX WEEKS. ONE ROBOT.</text>
+</svg>

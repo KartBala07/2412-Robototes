@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460" role="img" aria-label="Stylized classic box robot">
+  <rect width="600" height="460" fill="#120d0e"/>
+  <g opacity=".07" stroke="#ee2f38"><path d="M0 40h600M0 120h600M0 200h600M0 280h600M0 360h600M60 0v460M180 0v460M300 0v460M420 0v460M540 0v460" fill="none"/></g>
+  <line x1="60" y1="380" x2="540" y2="380" stroke="#3a2c2e" stroke-width="3"/>
+  <!-- classic box bot -->
+  <rect x="190" y="180" width="220" height="140" rx="6" fill="#1d1719" stroke="#ee2f38" stroke-width="3"/>
+  <rect x="190" y="276" width="220" height="44" fill="#ee2f38" opacity=".5"/>
+  <g fill="#0c0809" stroke="#5a4548" stroke-width="3">
+    <circle cx="235" cy="372" r="26"/><circle cx="365" cy="372" r="26"/>
+  </g>
+  <g fill="none" stroke="#ee2f38" stroke-width="2.5"><circle cx="235" cy="372" r="11"/><circle cx="365" cy="372" r="11"/></g>
+  <!-- little mast + flag -->
+  <line x1="380" y1="180" x2="380" y2="110" stroke="#6b5257" stroke-width="5"/>
+  <polygon points="380,110 428,122 380,134" fill="#ee2f38"/>
+  <!-- panel details -->
+  <g stroke="#5a4548" stroke-width="2.5" fill="none">
+    <rect x="210" y="200" width="60" height="40"/>
+    <rect x="286" y="200" width="60" height="40"/>
+    <circle cx="380" cy="220" r="12"/>
+  </g>
+  <text x="300" y="305" font-family="monospace" font-size="20" font-weight="bold" fill="#f4f3f3" text-anchor="middle" letter-spacing="4">2412</text>
+</svg>

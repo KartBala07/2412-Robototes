@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460" role="img" aria-label="Stylized robot with elevator and shooter">
+  <rect width="600" height="460" fill="#120d0e"/>
+  <path d="M0 0h600v460H0z" fill="none"/>
+  <g opacity=".07" stroke="#ee2f38"><path d="M0 40h600M0 120h600M0 200h600M0 280h600M0 360h600M60 0v460M180 0v460M300 0v460M420 0v460M540 0v460" fill="none"/></g>
+  <line x1="60" y1="380" x2="540" y2="380" stroke="#3a2c2e" stroke-width="3"/>
+  <rect x="170" y="320" width="260" height="44" rx="5" fill="#1d1719" stroke="#ee2f38" stroke-width="3"/>
+  <g fill="#0c0809" stroke="#5a4548" stroke-width="3">
+    <circle cx="210" cy="372" r="22"/><circle cx="300" cy="372" r="22"/><circle cx="390" cy="372" r="22"/>
+  </g>
+  <rect x="230" y="120" width="13" height="200" fill="#241b1d" stroke="#6b5257" stroke-width="2"/>
+  <rect x="264" y="90" width="13" height="230" fill="#241b1d" stroke="#6b5257" stroke-width="2"/>
+  <g stroke="#ee2f38" stroke-width="2.5" opacity=".8">
+    <line x1="230" y1="150" x2="277" y2="135"/><line x1="230" y1="200" x2="277" y2="185"/>
+    <line x1="230" y1="250" x2="277" y2="235"/><line x1="230" y1="300" x2="277" y2="285"/>
+  </g>
+  <polygon points="272,120 420,168 412,198 268,150" fill="#ee2f38"/>
+  <circle cx="274" cy="136" r="17" fill="#0c0809" stroke="#ee2f38" stroke-width="3"/>
+  <circle cx="450" cy="150" r="11" fill="none" stroke="#ffb03a" stroke-width="4"/>
+  <text x="300" y="352" font-family="monospace" font-size="20" font-weight="bold" fill="#f4f3f3" text-anchor="middle" letter-spacing="4">2412</text>
+</svg>

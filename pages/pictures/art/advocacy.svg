@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" role="img" aria-label="Stylized advocacy illustration — megaphone and capitol dome">
+  <defs>
+    <linearGradient id="advBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#151011"/>
+      <stop offset="1" stop-color="#0a0607"/>
+    </linearGradient>
+    <linearGradient id="advRed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff4a52"/>
+      <stop offset="1" stop-color="#c11a22"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="620" fill="url(#advBg)"/>
+  <!-- capitol dome outline -->
+  <g fill="none" stroke="#5a4548" stroke-width="4">
+    <path d="M250 470 L250 350 Q400 210 550 350 L550 470"/>
+    <line x1="400" y1="248" x2="400" y2="200"/>
+    <circle cx="400" cy="190" r="10"/>
+    <line x1="210" y1="470" x2="590" y2="470"/>
+    <line x1="300" y1="470" x2="300" y2="380"/>
+    <line x1="360" y1="470" x2="360" y2="360"/>
+    <line x1="440" y1="470" x2="440" y2="360"/>
+    <line x1="500" y1="470" x2="500" y2="380"/>
+  </g>
+  <!-- steps -->
+  <g stroke="#3a2c2e" stroke-width="4">
+    <line x1="190" y1="500" x2="610" y2="500"/>
+    <line x1="170" y1="528" x2="630" y2="528"/>
+  </g>
+  <!-- megaphone -->
+  <g transform="translate(180,150) rotate(-12)">
+    <polygon points="0,40 130,0 130,110 0,74" fill="url(#advRed)"/>
+    <rect x="-38" y="38" width="42" height="40" rx="6" fill="#0c0809" stroke="#ee2f38" stroke-width="4"/>
+    <rect x="10" y="86" width="18" height="46" rx="6" fill="#0c0809" stroke="#ee2f38" stroke-width="4"/>
+  </g>
+  <!-- sound rays -->
+  <g stroke="#ee2f38" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M340 120 Q380 108 420 116" opacity=".9"/>
+    <path d="M346 160 Q400 150 452 164" opacity=".6"/>
+    <path d="M348 200 Q410 196 470 214" opacity=".35"/>
+  </g>
+  <!-- checklist chips: the asks -->
+  <g font-family="monospace" font-size="17" letter-spacing="2">
+    <rect x="520" y="96" width="212" height="40" fill="#0c0809" stroke="#ee2f38" stroke-width="2"/>
+    <text x="538" y="122" fill="#f4f3f3">&#10003; SHOP SPACE</text>
+    <rect x="540" y="152" width="212" height="40" fill="#0c0809" stroke="#ee2f38" stroke-width="2"/>
+    <text x="558" y="178" fill="#f4f3f3">&#10003; CTE CREDIT</text>
+    <rect x="524" y="208" width="228" height="40" fill="#0c0809" stroke="#ee2f38" stroke-width="2"/>
+    <text x="542" y="234" fill="#f4f3f3">&#10003; STEM FUNDING</text>
+  </g>
+  <text x="400" y="585" font-family="monospace" font-size="18" fill="#a3a0a0" text-anchor="middle" letter-spacing="6">ADVOCATE &#183; RSAA</text>
+</svg>
