@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Robototes | Home</title>
+<link rel="icon" type="image/png" href="pictures/site/2412_logo.png">
+<meta name="description" content="FRC Team 2412 — The Robototes. Building, competing, and inspiring from Sammamish High School in Bellevue, Washington.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body data-root="">
+
+<!-- CURSOR -->
+<div id="cdot"></div>
+<div id="cring"></div>
+
+<!-- LOADER -->
+<div id="loader">
+  <img class="ld-logo" src="pictures/site/2412_logo.png" alt="Robototes">
+  <div class="ld-sub">Team 2412 &middot; Robototes</div>
+  <div class="ld-bw"><div class="ld-b"></div></div>
+</div>
+<!-- NAV -->
+<header>
+  <div class="navbar">
+    <a href="index.html" class="brand">
+      <img src="pictures/site/2412_logo.png" alt="Robototes Logo" class="brand-logo">
+      <div class="brand-text-stack">
+        <div class="brand-title">2412 <span>Robototes</span></div>
+        <div class="brand-subtitle">FIRST Robotics Team &bull; Bellevue, Washington</div>
+      </div>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu"><span></span></button>
+    <ul class="nav-menu">
+      <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+      <li class="nav-item">
+        <a href="about/team_2412.html" class="nav-link">About <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+        <div class="dropdown-panel">
+          <a href="about/team_2412.html">Team 2412</a><a href="about/first.html">FIRST</a>
+          <a href="robots/robototes_bots.html">Robototes Bots</a><a href="sponsors.html">Sponsors</a>
+        </div>
+      </li>
+      <li class="nav-item"><a href="robots/robototes_bots.html" class="nav-link">Robots</a></li>
+      <li class="nav-item"><a href="outreach/overview.html" class="nav-link">Outreach</a></li>
+      <li class="nav-item">
+        <a href="resources/documents.html" class="nav-link">Resources <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+        <div class="dropdown-panel" style="grid-template-columns:1fr;width:300px;">
+          <a href="resources/advocacy.html">Advocacy</a>
+          <a href="resources/documents.html">Documents</a>
+          <a href="https://blog.robototes.com/" target="_blank" rel="noopener">Build Blog &nearr;</a>
+          <a href="https://booster.robototes.com/" target="_blank" rel="noopener">Sammamish Robotics Boosters &nearr;</a>
+        </div>
+      </li>
+      <li class="nav-item"><a href="sponsors.html" class="nav-link">Sponsors</a></li>
+      <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+    </ul>
+    <div class="nav-actions-hub">
+      <div class="nav-icon-row"><div class="nav-search-wrap"><button class="nav-search-btn" id="navSearchBtn" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></button><div class="nav-search-drop" id="navSearchDrop"><div class="nav-search-drop-inner"><form class="nav-search-form" id="navSearchForm" autocomplete="off"><input class="nav-search-input" id="navSearchInput" type="text" placeholder="Search pages&hellip;" autocomplete="off" spellcheck="false"><button class="nav-search-go" type="submit">Go</button></form><div class="nav-search-suggs" id="navSearchSuggs"></div></div></div></div><button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle Layout Theme Mode">
+        <svg class="sun-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        <svg class="moon-icon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      </button></div>
+    </div>
+    <div class="nav-btn-stack">
+      <a href="contact.html" class="nav-cta">Join Us</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section id="hero">
+  <canvas id="hcvs"></canvas>
+  <div class="hero-grid">
+    <div class="h-content">
+      <div class="h-eye">FRC Team 2412 &nbsp;&middot;&nbsp; Bellevue, Washington &nbsp;&middot;&nbsp; Est. 2007</div>
+      <h1 class="htitle">
+        <span class="hl"><span>THE</span></span>
+        <span class="hl"><span>ROBOTOTES</span></span>
+        <span class="hl"><span>2412</span></span>
+      </h1>
+      <p class="h-sub">The FIRST Robotics Competition team of Sammamish High School. Since 2008 we have designed, built, and competed with robots &mdash; and grown STEM opportunity across our community.</p>
+      <div class="h-btns">
+        <a href="about/team_2412.html" class="btn btn-solid">Meet the Team &rarr;</a>
+        <a href="robots/robototes_bots.html" class="btn btn-ghost">Our Robots</a>
+      </div>
+    </div>
+
+    <!-- ROBOT STAGE -->
+    <div class="cad-stage">
+      <span class="cad-corner tl"></span>
+      <span class="cad-corner tr"></span>
+      <span class="cad-corner bl"></span>
+      <span class="cad-corner br"></span>
+      <div class="cad-tag">2026 Robot &middot; Phoenix</div>
+      <div class="cad-frame">
+        <div class="cad-placeholder">
+          <img src="pictures/site/2412_logo.png" alt="Robototes mascot">
+          <h4>Phoenix</h4>
+          <p>Our 2026 REBUILT robot &mdash; 39&ndash;18&ndash;0 in official play, Alliance 3 Captain and Bonney Lake District event winner.</p>
+        </div>
+      </div>
+      <a class="cad-hint cad-open-link" href="https://blog.robototes.com/" target="_blank" rel="noopener">Follow the build blog &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="mq-strip">
+  <div class="mq-track">
+    <span class="mq-item">FIRST Robotics<span class="mq-dot">&#9670;</span></span>
+    <span class="mq-item">Bellevue, Washington<span class="mq-dot">&#9670;</span></span>
+    <span class="mq-item">Team 2412<span class="mq-dot">&#9670;</span></span>
+    <span class="mq-item">Sammamish High School<span class="mq-dot">&#9670;</span></span>
+    <span class="mq-item">Pacific Northwest District<span class="mq-dot">&#9670;</span></span>
+    <span class="mq-item">FIRST Impact Award<span class="mq-dot">&#9670;</span></span>
+    <span class="mq-item">STEM Advocacy<span class="mq-dot">&#9670;</span></span>
+    <span class="mq-item">Build<span class="mq-dot">&#9670;</span></span>
+    <span class="mq-item">Compete<span class="mq-dot">&#9670;</span></span>
+    <span class="mq-item">Inspire<span class="mq-dot">&#9670;</span></span>
+    <span class="mq-item">FIRST Robotics<span class="mq-dot">&#9670;</span></span>
+    <span class="mq-item">Bellevue, Washington<span class="mq-dot">&#9670;</span></span>
+    <span class="mq-item">Team 2412<span class="mq-dot">&#9670;</span></span>
+    <span class="mq-item">Sammamish High School<span class="mq-dot">&#9670;</span></span>
+    <span class="mq-item">Pacific Northwest District<span class="mq-dot">&#9670;</span></span>
+    <span class="mq-item">FIRST Impact Award<span class="mq-dot">&#9670;</span></span>
+    <span class="mq-item">STEM Advocacy<span class="mq-dot">&#9670;</span></span>
+    <span class="mq-item">Build<span class="mq-dot">&#9670;</span></span>
+    <span class="mq-item">Compete<span class="mq-dot">&#9670;</span></span>
+    <span class="mq-item">Inspire<span class="mq-dot">&#9670;</span></span>
+  </div>
+</div>
+
+<!-- STATS -->
+<div id="stats">
+  <div class="st-in">
+    <div class="st-cell">
+      <div class="st-n"><span class="cnt" data-t="18">0</span></div>
+      <div class="st-lbl">Seasons of Competition</div>
+    </div>
+    <div class="st-cell">
+      <div class="st-n"><span class="cnt" data-t="65">0</span><span class="st-plus">+</span></div>
+      <div class="st-lbl">Students on the Team</div>
+    </div>
+    <div class="st-cell">
+      <div class="st-n"><span class="cnt" data-t="27">0</span></div>
+      <div class="st-lbl">Awards Earned</div>
+    </div>
+    <div class="st-cell">
+      <div class="st-n"><span class="cnt" data-t="5">0</span></div>
+      <div class="st-lbl">Championship Trips</div>
+    </div>
+  </div>
+</div>
+
+<!-- PANORAMIC TEAM PHOTO -->
+<section class="pano-section">
+  <div class="pano-frame reveal">
+    <div class="ph-frame"><img src="pictures/site/2412_logo.png" alt="Robototes"><span>Team photo &mdash; coming soon</span></div>
+  </div>
+</section>
+
+<!-- ABOUT COPY + ACTION PANELS -->
+<section class="content-stack" id="about">
+  <div class="content-header reveal">
+    <span class="tag">Pacific Northwest District &middot; Est. 2007</span>
+    <div class="ethos-words">
+      <span>Build</span>
+      <span>Compete</span>
+      <span>Inspire</span>
+    </div>
+  </div>
+
+  <div class="action-grid">
+    <a href="contact.html" class="action-btn reveal">
+      <div>
+        <h2>Join the Robototes</h2>
+        <p>We meet at Sammamish High School &mdash; new members and mentors are always welcome.</p>
+      </div>
+      <div class="action-arrow">&rarr;</div>
+    </a>
+    <a href="https://blog.robototes.com/" target="_blank" rel="noopener" class="action-btn reveal">
+      <div>
+        <h2>Read the Build Blog</h2>
+        <p>Open Alliance build-season write-ups straight from the shop.</p>
+      </div>
+      <div class="action-arrow">&rarr;</div>
+    </a>
+  </div>
+</section>
+
+<!-- RESOURCE CARDS -->
+<section class="cards-section">
+  <div class="cards-grid">
+    <a href="about/team_2412.html" class="resource-card reveal">
+      <div class="card-img-wrap"><div class="ph-frame"><img src="pictures/site/2412_logo.png" alt="Robototes"><span>Team 2412 &mdash; photo coming soon</span></div></div>
+      <div class="card-body">
+        <h3>Team 2412</h3>
+        <p>Founded in 2007 with 12 students and 2 mentors &mdash; now 65 students and 20 mentors strong at Sammamish High School.</p>
+      </div>
+    </a>
+
+    <a href="outreach/overview.html" class="resource-card reveal">
+      <div class="card-img-wrap"><div class="ph-frame"><img src="pictures/site/2412_logo.png" alt="Robototes"><span>Outreach &mdash; photo coming soon</span></div></div>
+      <div class="card-body">
+        <h3>Outreach</h3>
+        <p>Robot demos, free weekly tutoring, community cleanups, and helping new FIRST teams get off the ground.</p>
+      </div>
+    </a>
+
+    <a href="resources/advocacy.html" class="resource-card reveal">
+      <div class="card-img-wrap"><div class="ph-frame"><img src="pictures/site/2412_logo.png" alt="Robototes"><span>Advocacy &mdash; photo coming soon</span></div></div>
+      <div class="card-body">
+        <h3>Advocacy &amp; RSAA</h3>
+        <p>We founded the Robotics STEM Advocacy Alliance to help teams win shop space, credit, and funding for STEM.</p>
+      </div>
+    </a>
+  </div>
+</section>
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-left">
+      <div class="footer-search">
+        <svg width="16" height="16" fill="none" stroke="var(--text-muted)" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="footerSearchInput" placeholder="Search pages...">
+      </div>
+      <p>Email us at <a href="mailto:captain@robototes.com">captain@robototes.com</a></p>
+      <p>Sammamish High School<br>100 140th Ave SE, Bellevue, WA 98005</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about/team_2412.html">About Us</a>
+      <a href="sponsors.html">Sponsors</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+    <div class="footer-logos">
+      <img src="pictures/site/2412_logo.png" alt="Robototes Logo" class="footer-brand-logo">
+    </div>
+  </div>
+
+  <div class="footer-socket">
+    <div>&copy; 2026 Robototes &middot; FRC Team 2412 &middot; Sammamish High School. Content adapted from <a href="https://www.robototes.com" target="_blank" rel="noopener" style="color:var(--accent)">robototes.com</a>.</div>
+    <div class="footer-social-row">
+      <a href="https://www.instagram.com/robototes/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://www.youtube.com/channel/UCGPcRxxZuqsReqQDWMfKrVw" target="_blank" rel="noopener noreferrer">YouTube</a>
+      <a href="https://www.facebook.com/Robototes/" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a href="https://x.com/robotics_2412" target="_blank" rel="noopener noreferrer">X</a>
+      <a href="https://www.linkedin.com/company/robototes" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/site.js"></script>
+</body>
+</html>
