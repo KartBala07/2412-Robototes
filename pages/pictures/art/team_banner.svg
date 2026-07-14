@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" role="img" aria-label="Stylized banner of the Robototes team">
+  <defs>
+    <linearGradient id="tbBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#171112"/>
+      <stop offset="1" stop-color="#0a0607"/>
+    </linearGradient>
+    <pattern id="tbGrid" width="52" height="52" patternUnits="userSpaceOnUse">
+      <path d="M52 0H0v52" fill="none" stroke="#ee2f38" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="520" fill="url(#tbBg)"/>
+  <rect width="1600" height="520" fill="url(#tbGrid)"/>
+  <polygon points="0,520 1600,300 1600,520" fill="#ee2f38" opacity=".07"/>
+
+  <!-- team silhouette prototype -->
+  <defs>
+    <g id="p"><circle cx="0" cy="0" r="26"/><rect x="-34" y="34" width="68" height="120" rx="24"/></g>
+  </defs>
+  <!-- back row of team silhouettes -->
+  <g fill="#241b1d">
+    <use href="#p" x="170" y="240"/><use href="#p" x="300" y="228"/><use href="#p" x="430" y="244"/>
+    <use href="#p" x="560" y="230"/><use href="#p" x="690" y="242"/><use href="#p" x="820" y="228"/>
+    <use href="#p" x="950" y="244"/><use href="#p" x="1080" y="230"/><use href="#p" x="1210" y="242"/>
+    <use href="#p" x="1340" y="230"/><use href="#p" x="1460" y="244"/>
+  </g>
+  <!-- front row -->
+  <g fill="#332529">
+    <use href="#p" x="110" y="330"/><use href="#p" x="240" y="318"/><use href="#p" x="370" y="334"/>
+    <use href="#p" x="500" y="320"/><use href="#p" x="630" y="332"/><use href="#p" x="760" y="318"/>
+    <use href="#p" x="890" y="334"/><use href="#p" x="1020" y="320"/><use href="#p" x="1150" y="332"/>
+    <use href="#p" x="1280" y="318"/><use href="#p" x="1410" y="334"/><use href="#p" x="1520" y="322"/>
+  </g>
+  <!-- red team shirts accents on some -->
+  <g fill="#ee2f38" opacity=".85">
+    <rect x="206" y="352" width="68" height="26" rx="12"/>
+    <rect x="596" y="366" width="68" height="26" rx="12"/>
+    <rect x="986" y="354" width="68" height="26" rx="12"/>
+    <rect x="1376" y="368" width="68" height="26" rx="12"/>
+  </g>
+
+  <!-- center gear emblem -->
+  <g transform="translate(800,170)">
+    <g fill="#ee2f38">
+      <rect x="-9" y="-92" width="18" height="26" rx="4"/><rect x="-9" y="66" width="18" height="26" rx="4"/>
+      <rect x="-92" y="-9" width="26" height="18" rx="4"/><rect x="66" y="-9" width="26" height="18" rx="4"/>
+      <rect x="-9" y="-92" width="18" height="26" rx="4" transform="rotate(45)"/>
+      <rect x="-9" y="66" width="18" height="26" rx="4" transform="rotate(45)"/>
+      <rect x="-92" y="-9" width="26" height="18" rx="4" transform="rotate(45)"/>
+      <rect x="66" y="-9" width="26" height="18" rx="4" transform="rotate(45)"/>
+    </g>
+    <circle r="72" fill="#0c0809" stroke="#ee2f38" stroke-width="8"/>
+    <text y="14" font-family="monospace" font-size="40" font-weight="bold" fill="#f4f3f3" text-anchor="middle" letter-spacing="2">2412</text>
+  </g>
+
+  <!-- label -->
+  <text x="800" y="490" font-family="monospace" font-size="20" fill="#a3a0a0" text-anchor="middle" letter-spacing="8">THE ROBOTOTES &#183; SAMMAMISH HIGH SCHOOL</text>
+</svg>

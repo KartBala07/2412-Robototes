@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" role="img" aria-label="Stylized illustration of Phoenix, the 2026 robot">
+  <defs>
+    <linearGradient id="bgG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#151011"/>
+      <stop offset="1" stop-color="#0a0607"/>
+    </linearGradient>
+    <linearGradient id="redG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff4a52"/>
+      <stop offset="1" stop-color="#c11a22"/>
+    </linearGradient>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0H0v46" fill="none" stroke="#ee2f38" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="620" fill="url(#bgG)"/>
+  <rect width="800" height="620" fill="url(#grid)"/>
+  <!-- diagonal accent band -->
+  <polygon points="0,620 800,380 800,470 0,620" fill="#ee2f38" opacity=".08"/>
+  <!-- floor line -->
+  <line x1="60" y1="520" x2="740" y2="520" stroke="#3a2c2e" stroke-width="3"/>
+  <!-- ===== robot ===== -->
+  <!-- drive base -->
+  <rect x="220" y="440" width="360" height="60" rx="6" fill="#1d1719" stroke="#ee2f38" stroke-width="3"/>
+  <rect x="232" y="452" width="336" height="12" fill="#ee2f38" opacity=".55"/>
+  <!-- bumper number -->
+  <text x="400" y="487" font-family="monospace" font-size="30" font-weight="bold" fill="#f4f3f3" text-anchor="middle" letter-spacing="6">2412</text>
+  <!-- wheels -->
+  <g fill="#0c0809" stroke="#5a4548" stroke-width="4">
+    <circle cx="270" cy="510" r="30"/>
+    <circle cx="400" cy="510" r="30"/>
+    <circle cx="530" cy="510" r="30"/>
+  </g>
+  <g fill="none" stroke="#ee2f38" stroke-width="3">
+    <circle cx="270" cy="510" r="13"/>
+    <circle cx="400" cy="510" r="13"/>
+    <circle cx="530" cy="510" r="13"/>
+  </g>
+  <!-- elevator mast -->
+  <rect x="300" y="150" width="18" height="290" fill="#241b1d" stroke="#6b5257" stroke-width="2"/>
+  <rect x="345" y="110" width="18" height="330" fill="#241b1d" stroke="#6b5257" stroke-width="2"/>
+  <!-- mast rungs -->
+  <g stroke="#ee2f38" stroke-width="3" opacity=".8">
+    <line x1="300" y1="190" x2="363" y2="170"/>
+    <line x1="300" y1="250" x2="363" y2="230"/>
+    <line x1="300" y1="310" x2="363" y2="290"/>
+    <line x1="300" y1="370" x2="363" y2="350"/>
+  </g>
+  <!-- shooter / arm -->
+  <g>
+    <polygon points="355,150 560,215 548,255 350,190" fill="url(#redG)"/>
+    <polygon points="548,255 560,215 620,235 608,272" fill="#1d1719" stroke="#ee2f38" stroke-width="3"/>
+    <circle cx="358" cy="172" r="24" fill="#0c0809" stroke="#ee2f38" stroke-width="4"/>
+    <circle cx="358" cy="172" r="8" fill="#ee2f38"/>
+  </g>
+  <!-- intake at front -->
+  <g stroke="#ee2f38" stroke-width="4" fill="none">
+    <path d="M220 455 L160 400 L150 350"/>
+    <circle cx="150" cy="338" r="14" fill="#0c0809"/>
+  </g>
+  <!-- game piece -->
+  <circle cx="640" cy="286" r="16" fill="none" stroke="#ffb03a" stroke-width="5"/>
+  <!-- motion streaks -->
+  <g stroke="#ee2f38" stroke-width="3" opacity=".5">
+    <line x1="96" y1="470" x2="180" y2="470"/>
+    <line x1="70" y1="492" x2="150" y2="492"/>
+  </g>
+  <!-- wing flourish (phoenix) -->
+  <g fill="none" stroke="url(#redG)" stroke-width="5" stroke-linecap="round" opacity=".9">
+    <path d="M560 150 Q640 90 720 110"/>
+    <path d="M556 176 Q650 140 730 170"/>
+    <path d="M550 202 Q640 190 710 226"/>
+  </g>
+  <!-- label chip -->
+  <g font-family="monospace">
+    <rect x="60" y="60" width="220" height="42" fill="#0c0809" stroke="#ee2f38" stroke-width="2"/>
+    <text x="80" y="87" font-size="17" fill="#ee2f38" letter-spacing="3">PHOENIX / 2026</text>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 # Team 2412 Robototes — Website
 
-A static website for **FRC Team 2412, the Robototes** (Sammamish High School, Bellevue, WA), built in the style of [limesite.org](https://github.com/kartbala07/limesite.org) and re-skinned to the Robototes' black/red branding.
+A static website for **FRC Team 2412, the Robototes** (Sammamish High School, Bellevue, WA). Original design in the team's black/red branding — sharp edges, hard shadows, numbered sections, and custom SVG artwork.
 
 Content (team history, robots, sponsors, outreach, advocacy, contact info) is adapted from [robototes.com](https://www.robototes.com) and public team records.
 
@@ -8,30 +8,25 @@ Content (team history, robots, sponsors, outreach, advocacy, contact info) is ad
 
 ```
 pages/
-  index.html                     Home — hero, marquee, stats, action panels, cards
+  index.html                     Home — hero, stat bento grid, team band
   about/team_2412.html           Team history & mission
   about/first.html               What FIRST / FRC is
-  robots/robototes_bots.html     Robot timeline, 2008 → Phoenix (2026)
-  sponsors.html                  2026 / 2025 / past sponsors
+  robots/robototes_bots.html     Robot strip, 2008 → Phoenix (2026)
+  sponsors.html                  2026 / 2025 / past sponsor walls
   outreach/overview.html         Community outreach programs
   resources/advocacy.html        STEM advocacy & the RSAA
-  resources/documents.html       Documents & links
+  resources/documents.html       Links hub
   contact.html                   Emails, address, socials
-  css/site.css                   Shared stylesheet (dark/light themes)
-  js/site.js                     Shared behavior (theme, search, reveal, counters)
+  css/site.css                   Stylesheet (dark/light themes)
+  js/site.js                     Theme toggle, mobile nav, reveals, counters
   pictures/site/2412_logo.png    Team logo
+  pictures/art/*.svg             Custom illustrations (robot, team, outreach, advocacy, field)
 ```
 
 ## Deployment
 
-Pushes to `main` deploy the `pages/` directory to GitHub Pages via `.github/workflows/static.yml`.
+Pushes to `main` deploy the `pages/` directory to GitHub Pages via `.github/workflows/static.yml` at https://kartbala07.github.io/2412-Robototes/.
 
-## Adding photos
+## Swapping in real photos
 
-Team photos couldn't be downloaded when this site was generated, so photo slots use styled placeholder frames (`.ph-frame`). To drop in a real photo, replace the placeholder `<div class="ph-frame">…</div>` with:
-
-```html
-<img src="pictures/<your-photo>.jpg" alt="…">
-```
-
-inside the same wrapper (`.pano-frame` or `.card-img-wrap`).
+The image slots currently use custom SVG illustrations (real photos weren't downloadable when the site was generated). To use a real photo, drop it in `pages/pictures/` and change the relevant `<img src="…/pictures/art/….svg">` to point at it — the frames (`.hero-art`, `.band`, `.cell-art`, `.bot img`) work with any image.

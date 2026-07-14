@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" role="img" aria-label="Stylized outreach illustration — community around a gear">
+  <defs>
+    <linearGradient id="orBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#151011"/>
+      <stop offset="1" stop-color="#0a0607"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="620" fill="url(#orBg)"/>
+  <!-- radiating community arcs -->
+  <g fill="none" stroke="#ee2f38" stroke-width="3">
+    <circle cx="400" cy="310" r="150" opacity=".5"/>
+    <circle cx="400" cy="310" r="215" opacity=".3"/>
+    <circle cx="400" cy="310" r="280" opacity=".15"/>
+  </g>
+  <!-- community dots on arcs -->
+  <g fill="#f4f3f3">
+    <circle cx="400" cy="160" r="10"/><circle cx="530" cy="235" r="10"/><circle cx="530" cy="385" r="10"/>
+    <circle cx="400" cy="460" r="10"/><circle cx="270" cy="385" r="10"/><circle cx="270" cy="235" r="10"/>
+  </g>
+  <g fill="#ee2f38">
+    <circle cx="400" cy="95" r="12"/><circle cx="586" cy="203" r="12"/><circle cx="586" cy="418" r="12"/>
+    <circle cx="400" cy="525" r="12"/><circle cx="214" cy="418" r="12"/><circle cx="214" cy="203" r="12"/>
+  </g>
+  <!-- connecting spokes -->
+  <g stroke="#5a4548" stroke-width="2" opacity=".7">
+    <line x1="400" y1="160" x2="400" y2="95"/><line x1="530" y1="235" x2="586" y2="203"/>
+    <line x1="530" y1="385" x2="586" y2="418"/><line x1="400" y1="460" x2="400" y2="525"/>
+    <line x1="270" y1="385" x2="214" y2="418"/><line x1="270" y1="235" x2="214" y2="203"/>
+  </g>
+  <!-- center gear + heart -->
+  <g transform="translate(400,310)">
+    <g fill="#ee2f38">
+      <rect x="-8" y="-84" width="16" height="22" rx="4"/><rect x="-8" y="62" width="16" height="22" rx="4"/>
+      <rect x="-84" y="-8" width="22" height="16" rx="4"/><rect x="62" y="-8" width="22" height="16" rx="4"/>
+      <rect x="-8" y="-84" width="16" height="22" rx="4" transform="rotate(45)"/>
+      <rect x="-8" y="62" width="16" height="22" rx="4" transform="rotate(45)"/>
+      <rect x="-84" y="-8" width="22" height="16" rx="4" transform="rotate(45)"/>
+      <rect x="62" y="-8" width="22" height="16" rx="4" transform="rotate(45)"/>
+    </g>
+    <circle r="64" fill="#0c0809" stroke="#ee2f38" stroke-width="7"/>
+    <path d="M0 26 C -34 2 -26 -30 -2 -18 C 0 -17 0 -17 2 -18 C 26 -30 34 2 0 26 Z" fill="#ee2f38"/>
+  </g>
+  <text x="400" y="585" font-family="monospace" font-size="18" fill="#a3a0a0" text-anchor="middle" letter-spacing="6">STEM FOR EVERYONE</text>
+</svg>
